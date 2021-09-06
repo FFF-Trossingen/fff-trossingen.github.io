@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.element::-webkit-scrollbar { width: 0 !important }
+
+header .logo a {
+  background-image: url("../images/logo.jfif");
+  background-size: 90px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 100px;
+  width: 111px;
+  text-indent: -999999px;
+  position: relative;
+  top: -15px;
+}
+
+.topnav {
+  list-style: none;
+  font-family: 'Roboto Thin';
+  color: aliceblue;
+  margin: 30px 0 0 0;
+  text-align: right;
+}
+
+.home {
+  margin-top: 220px;
+}
+
+.projects {
+  margin-top: 20px;
+}
+
+.contact {
+    margin-top: 20px;
+}
+
+.part {
+  margin-top: 500px;
+  height: 650px;
+}
+
+.projectText {
+    font-family: 'Roboto Thin';
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-table;
+    flex-direction: column;
+    align-items: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #FFFFFF;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: #000;
+}
+
+p {
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: #6200EE;
+}
+
+a:hover {
+  color: #d602ee;
+}
+
+li {
+  display: inline-block;
+  padding-right: 7%;
+  margin: 10px 0 0 0;
+  font-size: 36px;
+}
+
+li:first-child {
+  float: left;
+}
+
+section {
+  text-align: center;
+  padding: 8%;
+}
+
+section nav {
+  font-family: 'Roboto Thin';
+  font-size: 36px;
+  line-height: 55px;
+  text-align: left;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section header {
+  margin-top: 0px;
+  font-family: 'Roboto Thin';
+  font-size: 62px;
+  margin-bottom: 20px;
+}
+
+section .mybutton {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #000;
+  background: #03DAC5;
+  display: inline-flex;
+  padding: 6px;
+  margin-top: 30px;
+  margin-right: 5%;
+  margin-left: 5%;
+  border: none;
+  border-radius: 5px;
+}
+
+.main-content {
+  color: white;
+}
+
+.codeDiv{
+  align-items:center;
+  text-align:center;
+  margin-top:30px;
+}
+
+footer {
+  font-family: 'Roboto Thin';
+  text-align: center;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  position: fixed;
+  bottom: 0pt;
+}
+
+.features {
+  color: gray;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: -90px;
+}
+
+.features figure {
+  margin: auto;
+  padding: 5px;
+  text-align: center;
+  width: 200px;
+}
+
+.features figure img {
+  border-radius: 5%;
+  width: 200px;
+  height: 200px;
+}
+
+figure img:hover {
+  filter: brightness(0.7);
+}
+
+figure figcaption {
+  font-family: 'Roboto Black';
+  font-size: 36px;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+figure figcaption a:hover {
+  color: #d602ee;
+}
+
+@media screen and (max-width: 1140px) {
+  section nav {
+    font-family: 'Roboto Thin';
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  li {
+    font-size: 24px;
+  }
+
+  .features {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -40px;
+  }
+
+  .features figure img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+
+  figure figcaption {
+    font-family: 'Roboto Black';
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .features {
+    display: block;
+  }
+
+  li {
+    font-size: 14px;
+  }
+
+  section header {
+    font-size: 42px;
+  }
+
+  .games {
+    margin-top: 50px;
+  }
+
+  .features figure:first-child {
+    padding-top: 100px;
+  }
+
+  section nav {
+    font-size: 16px;
+    line-height: 36px;
+  }
+
+  footer {
+    font-size: 10px;
+  }
+  header .logo a {
+    height: 50px;
+    width: 60px;
+    background-size: 50px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  li {
+    font-size: 12px;
+  }
+
+  section nav {
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  section .mybutton {
+    font-size: 12px;
+  }
+
+  section .mybutton:hover {
+    background: white;
+    font-size: 14px;
+    margin-top: 29px;
+  }
+}
