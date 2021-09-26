@@ -2021,8 +2021,9 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			color: #f35858;
-			border-color: rgba(243, 88, 88, 0.5);
+			background: rgba(29, 166, 14, 0.5);
+			color: #1B7340;
+			border-color: rgba(27, 115, 64, 0.5);
 		}
 
 /* Icons */
@@ -2104,7 +2105,7 @@ Marker Nr 00001
 		background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #1DA60E 15%, #1B7340 55%);
 		background-image: url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(75deg, #1DA60E 15%, #1B7340 55%);
 		background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(75deg, #1DA60E 15%, #1B7340 55%);
-		background-color: #f08c89;
+		background-color: #1B7340;
 		background-size: 100% 620%;
 		background-size: 128px 128px, 100% 620%, auto;
 		background-repeat: repeat, no-repeat, no-repeat;
@@ -2304,10 +2305,13 @@ Marker Nr 00001
 			line-height: 1.5em;
 		}
 
+		/*
+		Marker Nr 00002
+		*/
 		#hero .button {
 			background: #fff;
 			border-color: rgba(255, 255, 255, 0);
-			color: #f08c89;
+			color: #1B7340;
 			font-size: 1.25em;
 		}
 
