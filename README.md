@@ -1,4 +1,4 @@
-# fff-trossingen.github.io
+# [fff-trossingen.github.io](https://fff-trossingen.github.io/)
 ## Die Website der Fridays for Future Ortsgruppe Trossingen
 
 Hier werden neue Events angekündigt und bisherige aufgelistet
