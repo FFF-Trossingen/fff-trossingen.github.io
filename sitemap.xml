@@ -1,62 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://fff-trossingen.github.io/</loc>
-  <lastmod>2021-10-24T13:41:52+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://fff-trossingen.github.io/index.html</loc>
-  <lastmod>2021-10-24T13:41:52+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://fff-trossingen.github.io/archiv/</loc>
-  <lastmod>2021-10-24T13:41:51+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://fff-trossingen.github.io/aktuell/</loc>
-  <lastmod>2021-10-24T13:41:51+00:00</lastmod>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>https://fff-trossingen.github.io/mach-mit/</loc>
-  <lastmod>2021-10-24T13:41:52+00:00</lastmod>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>https://fff-trossingen.github.io/ueber-uns/</loc>
-  <lastmod>2021-10-24T13:41:52+00:00</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://fff-trossingen.github.io/kontakt/</loc>
-  <lastmod>2021-10-24T13:41:52+00:00</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://fff-trossingen.github.io/archiv/artikel/24_09_2021/</loc>
-  <lastmod>2021-10-24T13:41:51+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://fff-trossingen.github.io/archiv/artikel/29_11_2019/</loc>
-  <lastmod>2021-10-24T13:41:51+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://fff-trossingen.github.io/archiv/artikel/20_09_2019/</loc>
-  <lastmod>2021-10-24T13:41:51+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://fff-trossingen.github.io/</loc>
+    </url>
+    <url>
+        <loc>https://fff-trossingen.github.io/aktuell/</loc>
+    </url>
+    <url>
+        <loc>https://fff-trossingen.github.io/archiv/</loc>
+    </url>
+    <url>
+        <loc>https://fff-trossingen.github.io/archiv/artikel/20_09_2019/</loc>
+    </url>
+    <url>
+        <loc>https://fff-trossingen.github.io/archiv/artikel/24_09_2021/</loc>
+    </url>
+    <url>
+        <loc>https://fff-trossingen.github.io/archiv/artikel/29_11_2019/</loc>
+    </url>
+    <url>
+        <loc>https://fff-trossingen.github.io/index.html</loc>
+    </url>
+    <url>
+        <loc>https://fff-trossingen.github.io/kontakt/</loc>
+    </url>
+    <url>
+        <loc>https://fff-trossingen.github.io/mach-mit/</loc>
+    </url>
+    <url>
+        <loc>https://fff-trossingen.github.io/ueber-uns/</loc>
+    </url>
 </urlset>
