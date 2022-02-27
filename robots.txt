@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://www.fff-trossingen.github.io.com/sitemap.xml
